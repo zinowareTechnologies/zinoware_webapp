@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import Button from './Components/Shared/Elements/Button'
+import Input from './Components/Shared/Elements/Input'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,6 +29,8 @@ function App() {
       <p className="read-the-docs text-xl">
         Click on the Vite and React logos to learn more
       </p>
+      <Button/>
+      <Input/>
     </div>
   )
 }
