@@ -1,8 +1,71 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Figtree:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Madefor';
+  src: url('./fonts/Madefor.woff2') format('woff2'),
+       url('./fonts/Madefor.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', 'Figtree', 'DM Sans', 'Inter Tight', 'Madefor',
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 @theme {
+  /* Core Colors */
   --color-primary: #16c3e7;
   --color-secondary: #ffa02f;
   --color-accent: #ffdb73;
   --color-dark: #3480b8;
+
+  /* Light Tones */
+  --color-x: #faedcd;
+  --color-cream: #d6ccc2;
+  --color-light-blue: #caf0f8;
+
+  /* Blues */
+  --color-navy: #1d3557;
+  --color-steel: #4C585B;
+  --color-sky: #4cc9f0;
+  --color-cyan: #36a3e1;
+  --color-ocean: #188bcb;
+  --color-soft-blue: #a0d9f2;
+  --color-cool-blue: #168aad;
+
+  /* Text Grays */
+  --color-text-light: #d9d9d9;
+  --color-text-gray: #b3b3b3;
+  --color-text-medium: #8c8c8c;
+  --color-text-dark: #666666;
+  --color-text-darker: #4d4d4d;
+  --color-text-deep: #333333;
+  --color-text-deeper: #1a1a1a;
+  --color-text-black: #000000;
+
+  /* Neutral Grays */
+  --color-gray: #cccccc;
+
+  /* Warm Tones */
+  --color-sand: #f2b65d;
+  --color-orange: #f28f00;
+
+  /* Greens & Yellows */
+  --color-teal: #3e6570;
+  --color-olive: #a3a300;
+  --color-olive-dark: #7d7d00;
+  --color-lime: #c2c200;
+
+  /* Reds & Pinks */
+  --color-rose: #f0547a;
+  --color-crimson: #e83f61;
+  --color-red: #ff4d4d;
+  --color-red-bright: #ff3333;
+  --color-amber: #ffb300;
+
+  /* Essentials */
+  --color-white: #ffffff;
+  --color-black: #000000;
 }
